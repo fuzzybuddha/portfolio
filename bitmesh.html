@@ -1,71 +1,111 @@
 <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div style="text-align: right;">
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i data-dismiss="modal" class="fa fa-times fa-2x"></i></button>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h2>BitMesh</h2>
-                                </div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div style="text-align: right;">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i data-dismiss="modal" class="fa fa-times fa-2x"></i></button>
+                </div>
+                <div class="col-xs-12">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-12 spacer">
+                                <h2>BitMesh</h2>
                             </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h4>Banner</h4>
-                                    <img src="img/portfolio/AboutBitMeshBanner.gif" class="img-responsive img-centered white-border" alt=""></img>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h4>Buyer Dashboard</h4>
-                                    <img src="img/portfolio/CaptivePortal.png" class="img-responsive white-border" alt=""></img>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-9">
-                                    <h4>Authentication</h4>
-                                    <img src="img/portfolio/authentication.png" class="img-responsive white-border" alt=""></img>
-                                </div>
-                                <div class="col-xs-3">
-                                    <h4>Guiding Animations</h4>
-                                    <img src="img/portfolio/MultTabsAnimation.gif" class="img-responsive white-border" alt=""></img>
-                                    <img src="img/portfolio/LoadingAnimation.gif" class="img-responsive white-border" alt=""></img>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <img src="img/portfolio/AboutBitMeshBanner.gif" class="img-responsive img-centered white-border" alt=""></img>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 proj-desc">
-                                <p>BitMesh is a startup that is building a bitcoin-incentivized mesh network. I designed and developed a responsive user interface and created graphics and animations for their captive portal and website.
+                                <h4>Project Overview</h4>
+                                <p>I designed and developed a mobile-friendly, responsive user interface for the captive portal for BitMesh Inc.</p>
+                                <p>BitMesh Inc. is a startup that was founded at Boost VC in San Mateo in 2014. I was working for them as their first employee, doing front-end development, UI/UX design, and creating graphics and animation that explain the purpose of the software to users.</p>
+                                <p>Andrew Donley [CEO], and Christopher Smith [CTO], of BitMesh developed a modular micropayment channel platform for bitcoin, and used it to create a financially-sustained mesh network to grow the reach of internet connection globally. My job was to create a UX/UI that would simplify the process of buying and selling internet and entice bitcoin users and non-bitcoin users alike to join the network.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 proj-desc spacer">
+                                <h4>Approach</h4>
+                                <p>BitMesh's business plan was to first limit software licenses to larger chain businesses, such as hotels and cafes, during alpha testing in order to keep any possible bug fixes manageable before making a full deployment.</p>
+
+                                <h4>Use Cases</h4>
+                                <p>Therefore, at this part of the development cycle, the use case I focused most on was the naive user who happened upon the BitMesh network either by sitting physically nearby and finding it unlocked on their WiFi channel.  Other possible use cases might involve word of mouth, print advertising, or online advertising.  However, in any case, the experience calls for a clear, attention-grabbing introduction that appeals to the users immediate need: a desire to get online, and a streamlined interface that demonstrates how to do so.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-10 col-xs-offset-1 proj-desc">
+                                <h4>Buyer Dashboard</h4>
+                                <img src="img/portfolio/CaptivePortal.png" class="img-responsive white-border" alt=""></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 proj-desc spacer">
+
+                                <h4>But Bitcoin is complicated</h4>
+                                <p>Bitcoin is known to be a complicated form of currency, and it can be difficult for a typical internet user to understand what mesh networking is for.  55% of users spend less than 15 seconds scanning a new webpage before moving on.  Rather than explain to the users what Bitcoin, BitMesh and mesh networking are right from the start, I decided to open the page with the following header: </p>
+
+                                <h5 style="text-align:center; text-transform: none;">"Want to get online?  You can pay for internet access here using Bitcoin."</h5>
+                                
+                                <h4>The Dashboard Interface</h4>
+                                <p>Below the headline, a clear "Start Here" directs the users attention to the QR code.  If the user happens to have bitcoin, he or she simply scans the code and is prompted to send enough bitcoin to pay for 30 minutes of internet time (which would cost a fairly negligible amount--the equivalent of five cents).  The user is assured that any time that goes unused will be refunded back to the user's wallet.</p>
+
+                                <p>Once the bitcoin has been sent, the dashboard on the right begins running.
+                                <li><strong>Price per hour</strong> in bitcoin remains the same, but the user may change the view from bitcoin to a fiat currency conversion (dollars in the USA).</li>
+                                <li><strong>Amount spent</strong> rises as time spent online increases and the value can also be viewed as bitcoin or as fiat currency.</li>
+                                <li><strong>Time remaining</strong> allows the user to know how long it will be before the connection disconnects.  The user is also alerted to add more funds to the portal if the time is about to run out.</li></p>
+                                <h4>The Authentication Page</h4>
+                                <p>Since an authentication page with terms of service acceptance was a necessary step before the window could open up to the captive portal page, I made it as similar as possible to other captive portal pages, making it clear that the channel was an open, public WiFi channel for anyone to use, and a clear, large button that says "Get Online".</p>
+
+                                <h4>The Guiding Animations</h4>
+                                <p>1. The first guiding animation displayed below was created to be displayed below a header that says, "You have multiple BitMesh tabs open.  Please close this one and use the other."  Although requiring the user to close one of the tabs doesn't sound like the greatest interaction in terms of UX design, the micropayment channel technology would not allow for payments from both tabs to merge into one transaction, so the timers would end up running simultaneously.  Thus, using a humorous animation to portray why their interface has been blocked on this tab seemed like the next best alternative.
+
+                                2. The second guiding animation serves as a loader icon below the words "Loading QR code".  The alpha prototype of BitMesh's captive portal takes about four or five seconds to load the QR, so rather than making the user wait to see the entire page, I created this image as a friendly placeholder.
+                                </p>
+
                                 </p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12">
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://bitmesh.network">BitMesh</a>
-                                            </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>August 2015
-                                            </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>UI Design, Front-end Development
-                                            </strong>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12 text-center">
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <div class="col-xs-12 proj-desc spacer">
                             </div>
                         </div>
-                        
+                        <div class="row">
+                            <div class="col-xs-9 proj-desc">
+                                <h4>Authentication Page</h4>
+                                <img src="img/portfolio/authentication.png" class="img-responsive white-border" alt=""></img>
+                            </div>
+                            <div class="col-xs-3">
+                                <h4>Guiding Animations</h4>
+                                <img src="img/portfolio/MultTabsAnimation.gif" class="img-responsive white-border" alt=""></img>
+                                <img src="img/portfolio/LoadingAnimation.gif" class="img-responsive white-border" alt=""></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://bitmesh.network">BitMesh</a>
+                                            </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>August 2015
+                                            </strong>
+                                </li>
+                                <li>Service:
+                                    <strong>UI Design, Front-end Development
+                                            </strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
