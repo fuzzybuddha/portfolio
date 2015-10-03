@@ -459,6 +459,27 @@ footer .footer-below {
 .portfolio-modal .modal-content .col {
   text-align: left;
 }
+.portfolio-modal .modal-content .modal-title {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.portfolio-modal .modal-content .project-overview1 {
+  font-family: "Maison Neue Bold", Helvetica, Arial, sans-serif, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #1352A2;
+}
+.portfolio-modal .modal-content .project-overview2 {
+  font-family: "Maison Neue Bold", Helvetica, Arial, sans-serif, sans-serif;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  background-color: #D4DEE8;
+}
 .portfolio-modal .modal-content .overview {
   font-size: 20px;
 }

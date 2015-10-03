@@ -73,43 +73,6 @@ $(document).ready(function(){
     });
 
 
-/*
-    $('#OPERSbooklet').hide();
-    $('#hide_booklet').hide();
-    $(function() {
-        // run the currently selected effect
-        function toggleBooklet() {
-            // get effect type from
-            var selectedEffect = $( "clip" ).val();
-
-            // most effect types need no options passed by default
-            var options = {};
-            // some effects have required parameters
-            if ( selectedEffect === "scale" ) {
-                options = { percent: 0 };
-            } else if ( selectedEffect === "size" ) {
-                options = { to: { width: 200, height: 60 } };
-            }
-
-            // run the effect
-            $( "#OPERSbooklet" ).toggle( "blind", options, 1500 );
-            
-        };
-
-        // set effect from select menu value
-        $( "#show_booklet, #hide_booklet" ).click(function() {
-            
-            toggleBooklet();
-            $( "#show_booklet" ).toggle();
-            $( "#hide_booklet" ).toggle();
-            $( "#scroll" ).scroll();
-            
-        });
-
-    });
-*/
-
-
 
 });
 
