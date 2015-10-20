@@ -7,6 +7,7 @@ body {
 }
 p {
   font-size: 20px;
+  text-align: center;
 }
 p.small {
   font-size: 16px;
@@ -158,15 +159,53 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #1352a2;
+  background: url(../img/flowers.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+}
+section.success .about-text {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  text-rendering: optimizeLegibility;
+  font-weight: 100;
+}
+section.success .about-text .p {
+  text-align: center;
+}
+section.success .about-text h3 {
+  text-transform: none;
+  padding-bottom: 20px;
+}
+section.success .about-text .resume-button {
+  margin-top: 20px;
+  background-color: #f26964;
+  border-radius: 4px;
+  width: 100px;
+  padding: 10px;
+}
+section.success .about-text .resume-button a {
   color: white;
+}
+section.success .about-text .resume-button a:hover {
+  text-decoration: none;
+}
+section.success h2 {
+  color: black;
+  background-color: white;
+}
+section.success p {
+  font-size: 16px;
+  text-align: left;
 }
 section.success a,
 section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #ffffff;
   outline: none;
 }
 #portfolio {

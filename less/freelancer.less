@@ -7,12 +7,15 @@
         url('../fonts/GalanoGrotesqueBold.woff') format('woff');
 }
 
+
+
 body {
 	overflow-x: hidden;
 }
 
 p {
 	font-size: 20px;
+	text-align: center;
 }
 
 p.small {
@@ -181,15 +184,58 @@ section {
 }
 
 section.success {
-	background: @brand-success;
-	color: white;
+	background: url(../img/flowers.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: black;
+
+	.about-text {
+		background-color: white;
+		color:black;
+		padding: 30px;
+		text-rendering: optimizeLegibility;
+		font-weight: 100;
+		.p{
+			text-align: center;
+		}
+		h3{
+			text-transform: none;
+			padding-bottom: 20px;
+		}
+		.resume-button {
+		margin-top: 20px;
+		background-color: @brand-success2;
+		border-radius: 4px;
+		width: 100px;
+		padding: 10px;
+			a {
+				color: white;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+
+	h2 {
+		color: black;
+		background-color: white;
+	}
+
+	p {
+		font-size: 16px;
+		text-align: left;
+	}
 
     a,
     a:hover,
     a:focus,
     a:active,
     a.active {
-      color: @brand-primary;
+      
       outline: none;
     }
 }
