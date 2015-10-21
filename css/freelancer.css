@@ -186,6 +186,7 @@ section.success .about-text .resume-button {
   border-radius: 4px;
   width: 100px;
   padding: 10px;
+  font-weight: bold;
 }
 section.success .about-text .resume-button a {
   color: white;
